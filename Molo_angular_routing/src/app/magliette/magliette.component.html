@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Tipologia</th>
+        <th>Prezzo</th>
+    </tr>
+    <tr *ngFor="let m of magliette">
+        <td>{{m.id}}</td>
+        <td>{{m.nome}}</td>
+        <td>{{m.tipologia}}</td>
+        <td>{{m.prezzo}}</td>
+    </tr>
+</table>
