@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { ScarpeComponent } from './scarpe/scarpe.component';
 import { MaglietteComponent } from './magliette/magliette.component';
 const routes: Routes = [
-  { path: 'magliette', component: ScarpeComponent},
-  { path: 'scarpe', component: MaglietteComponent},
+  { path: 'magliette', component: MaglietteComponent},
+  { path: 'scarpe', component: ScarpeComponent},
   { path: '', redirectTo: '/scarpe', pathMatch:'full'}
 ];
 
